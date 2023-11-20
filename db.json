@@ -1,0 +1,394 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Hangisi JavaScript paket yönetim uygulamasıdır?",
+      "options": [
+        { "choice": "Node.js", "isCorrect": false },
+        { "choice": "TypeScript", "isCorrect": false },
+        { "choice": "Npm", "isCorrect": true },
+        { "choice": "NuGet", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Hangisi frontend kapsamında değerlendirilmez?",
+      "options": [
+        { "choice": "Css", "isCorrect": false },
+        { "choice": "Html", "isCorrect": false },
+        { "choice": "Javascript", "isCorrect": false },
+        { "choice": "Sql", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Hangisi backend kapsamında değerlendirilir?",
+      "options": [
+        { "choice": "Node.js", "isCorrect": true },
+        { "choice": "TypeScript", "isCorrect": false },
+        { "choice": "Angular", "isCorrect": false },
+        { "choice": "React", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Hangisi JavaScript programlama dilini kullanmaz?",
+      "options": [
+        { "choice": "React", "isCorrect": false },
+        { "choice": "Angular", "isCorrect": false },
+        { "choice": "Vue.js", "isCorrect": false },
+        { "choice": "Asp.net", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "JavaScript'te '===' operatörü neyi kontrol eder?",
+      "options": [
+        { "choice": "Değer ve türü", "isCorrect": true },
+        { "choice": "Sadece değeri", "isCorrect": false },
+        { "choice": "Sadece türü", "isCorrect": false },
+        { "choice": "Değeri veya türü", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "JavaScript'te 'NaN' neyi ifade eder?",
+      "options": [
+        { "choice": "Boş değer", "isCorrect": false },
+        { "choice": "Hata", "isCorrect": false },
+        { "choice": "Sayısal olmayan değer", "isCorrect": true },
+        { "choice": "Sonsuzluk", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "JavaScript'te 'let' ve 'var' arasındaki fark nedir?",
+      "options": [
+        { "choice": "'let' blok kapsamında, 'var' ise fonksiyon kapsamındadır.", "isCorrect": true },
+        { "choice": "'var' blok kapsamında, 'let' ise fonksiyon kapsamındadır.", "isCorrect": false },
+        { "choice": "'let' global kapsamda kullanılırken, 'var' lokal kapsamda kullanılır.", "isCorrect": false },
+        { "choice": "'var' değiştirilebilirken, 'let' sabittir.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "JavaScript'te 'typeof' operatörü neyi döndürür?",
+      "options": [
+        { "choice": "Değerin türünü", "isCorrect": true },
+        { "choice": "Değerin boyutunu", "isCorrect": false },
+        { "choice": "Değerin adresini", "isCorrect": false },
+        { "choice": "Değerin tam sayı kısmını", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "JavaScript'te 'null' ve 'undefined' arasındaki fark nedir?",
+      "options": [
+        { "choice": "'null', bir değişkenin atanmış ancak değerinin olmadığını ifade ederken, 'undefined' tanımsız veya atanmamış bir değişkeni ifade eder.", "isCorrect": true },
+        { "choice": "'null', tanımsız veya atanmamış bir değişkeni ifade ederken, 'undefined' bir değişkenin atanmış ancak değerinin olmadığını ifade eder.", "isCorrect": false },
+        { "choice": "'null', sayısal bir değer iken 'undefined' bir metinsel değeri ifade eder.", "isCorrect": false },
+        { "choice": "'null', bir değişkenin değerini sonsuz olarak ifade ederken, 'undefined' bir değişkenin değeri olmadığını belirtir.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "JavaScript'te 'map()' fonksiyonu ne yapar?",
+      "options": [
+        { "choice": "Diziyi birleştirir.", "isCorrect": false },
+        { "choice": "Her öğe üzerinde işlem yapar ve yeni bir dizi döndürür.", "isCorrect": true },
+        { "choice": "Dizinin sonuna yeni öğeler ekler.", "isCorrect": false },
+        { "choice": "Diziden belirli bir öğeyi çıkarır.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "JavaScript'te 'typeof NaN' ifadesinin sonucu nedir?",
+      "options": [
+        { "choice": "'number'", "isCorrect": true },
+        { "choice": "'NaN'", "isCorrect": false },
+        { "choice": "'undefined'", "isCorrect": false },
+        { "choice": "'string'", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "JavaScript'te 'destructuring assignment' ne işe yarar?",
+      "options": [
+        { "choice": "Bir dizi veya nesne içinden değerleri çıkarmak ve tek seferde atamak için kullanılır.", "isCorrect": true },
+        { "choice": "Yalnızca bir değeri atamak için kullanılır.", "isCorrect": false },
+        { "choice": "Değerleri çıkarmak için kullanılan özel bir operatördür.", "isCorrect": false },
+        { "choice": "Dizileri sıralamak için kullanılır.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "JavaScript'te 'async' ve 'await' ne işe yarar?",
+      "options": [
+        { "choice": "'async', bir fonksiyonun asenkron olarak çalışmasını sağlarken, 'await' asenkron bir işlemi durdurur ve sonucunu bekler.", "isCorrect": true },
+        { "choice": "'async', bir döngüyü durdururken, 'await' bir fonksiyonun hızını artırır.", "isCorrect": false },
+        { "choice": "'async', bir fonksiyonun eşzamanlı olarak çalışmasını sağlarken, 'await' bir dizi işlemi birleştirir.", "isCorrect": false },
+        { "choice": "'async', bir fonksiyonun değerini artırırken, 'await' bir döngüyü hızlandırır.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "JavaScript'te 'localStorage' ve 'sessionStorage' arasındaki fark nedir?",
+      "options": [
+        { "choice": "'localStorage' tarayıcıyı kapattıktan sonra da bilgileri saklarken, 'sessionStorage' sadece tarayıcı oturumu boyunca saklar.", "isCorrect": true },
+        { "choice": "'localStorage' sadece belirli bir alanı saklarken, 'sessionStorage' tüm veriyi saklar.", "isCorrect": false },
+        { "choice": "'localStorage' verileri şifrelerken, 'sessionStorage' şifreleme yapmaz.", "isCorrect": false },
+        { "choice": "'localStorage' ve 'sessionStorage' arasında herhangi bir fark yoktur.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "JavaScript'te 'ES6' neyi ifade eder?",
+      "options": [
+        { "choice": "Bir işaretleme dilini", "isCorrect": false },
+        { "choice": "En son JavaScript sürümünü", "isCorrect": true },
+        { "choice": "Bir programlama dili standardını", "isCorrect": false },
+        { "choice": "Bir veritabanı türünü", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "JavaScript'te 'spread' operatörü ne işe yarar?",
+      "options": [
+        { "choice": "Diziyi parçalara böler.", "isCorrect": true },
+        { "choice": "Değişkenleri birleştirir.", "isCorrect": false },
+        { "choice": "Değerleri bir dizi içinde toplar.", "isCorrect": false },
+        { "choice": "Değerleri kopyalar.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "JavaScript'te 'arrow functions' (ok işlevleri) ne işe yarar?",
+      "options": [
+        { "choice": "Kod bloklarını birleştirir.", "isCorrect": false },
+        { "choice": "Fonksiyonlarda kısa gösterim sağlar.", "isCorrect": true },
+        { "choice": "Yorum satırlarını geçersiz kılar.", "isCorrect": false },
+        { "choice": "Döngülerde kullanılır.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "JavaScript'te 'setTimeout()' fonksiyonu ne yapar?",
+      "options": [
+        { "choice": "Belirli bir süre sonra bir işlemi gerçekleştirir.", "isCorrect": true },
+        { "choice": "Bir işlemi her zaman gerçekleştirir.", "isCorrect": false },
+        { "choice": "Belirli bir süre bekler ve ardından işlemi gerçekleştirir.", "isCorrect": false },
+        { "choice": "İşlemi iptal eder.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "JavaScript'te 'NaN' hangi veri türüne aittir?",
+      "options": [
+        { "choice": "'number'", "isCorrect": true },
+        { "choice": "'string'", "isCorrect": false },
+        { "choice": "'boolean'", "isCorrect": false },
+        { "choice": "'object'", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "JavaScript'te 'object destructuring' (nesne parçalama) ne yapar?",
+      "options": [
+        { "choice": "Bir dizi içinden değerleri alır.", "isCorrect": false },
+        { "choice": "Bir nesne içinden değerleri alır ve tek seferde atama yapar.", "isCorrect": true },
+        { "choice": "Bir nesne içindeki fonksiyonları parçalar.", "isCorrect": false },
+        { "choice": "Bir nesneyi tamamen siler.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 21,
+      "question": "JavaScript'te 'promise' nedir?",
+      "options": [
+        { "choice": "Bir hata mesajı", "isCorrect": false },
+        { "choice": "Bir değeri temsil eden nesne", "isCorrect": true },
+        { "choice": "Bir döngü yapısı", "isCorrect": false },
+        { "choice": "Bir fonksiyon tipi", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 22,
+      "question": "JavaScript'te 'try...catch' bloğu ne işe yarar?",
+      "options": [
+        { "choice": "Kodun performansını artırır.", "isCorrect": false },
+        { "choice": "Bir döngüyü yönetir.", "isCorrect": false },
+        { "choice": "Hata yakalama ve işleme imkanı sağlar.", "isCorrect": true },
+        { "choice": "Değişkenleri korur.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 23,
+      "question": "JavaScript'te 'JSON' neyi ifade eder?",
+      "options": [
+        { "choice": "JavaScript Object Notation", "isCorrect": true },
+        { "choice": "JavaScript Operatörü", "isCorrect": false },
+        { "choice": "JavaScript Object Naming", "isCorrect": false },
+        { "choice": "JavaScript Oriented Notation", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 24,
+      "question": "JavaScript'te 'prototype' ne işe yarar?",
+      "options": [
+        { "choice": "Bir fonksiyonun nasıl tanımlanacağını belirtir.", "isCorrect": false },
+        { "choice": "Bir nesnenin nasıl oluşturulacağını belirtir.", "isCorrect": false },
+        { "choice": "Nesneler arasındaki kalıtımı sağlar.", "isCorrect": true },
+        { "choice": "Bir fonksiyonun değerini belirtir.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 25,
+      "question": "JavaScript'te 'addEventListener()' ne yapar?",
+      "options": [
+        { "choice": "Bir olay dinleyicisi ekler.", "isCorrect": true },
+        { "choice": "Bir elemanı kaldırır.", "isCorrect": false },
+        { "choice": "Bir elementin rengini değiştirir.", "isCorrect": false },
+        { "choice": "Bir elementi hareket ettirir.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 26,
+      "question": "JavaScript'te 'forEach()' ne yapar?",
+      "options": [
+        { "choice": "Dizideki her öğe için bir fonksiyon çalıştırır.", "isCorrect": true },
+        { "choice": "Bir dizi içindeki belirli bir öğeyi arar.", "isCorrect": false },
+        { "choice": "Dizideki öğeleri birleştirir.", "isCorrect": false },
+        { "choice": "Bir dizi içindeki öğeleri tersine çevirir.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 27,
+      "question": "JavaScript'te 'call()' ve 'apply()' arasındaki fark nedir?",
+      "options": [
+        { "choice": "'call()', bir fonksiyonu çağırırken, 'apply()' bir dizi içinden bağımsız değişkenler alır.", "isCorrect": true },
+        { "choice": "'call()', bir dizi içinden değişkenler alırken, 'apply()' bir fonksiyonu çağırır.", "isCorrect": false },
+        { "choice": "'call()', bir nesne içindeki metodları çağırırken, 'apply()' bir nesnenin özelliklerini uygular.", "isCorrect": false },
+        { "choice": "'call()' ve 'apply()' arasında herhangi bir fark yoktur.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 28,
+      "question": "JavaScript'te 'typeof' operatörü hangi veri türü için 'object' döndürür?",
+      "options": [
+        { "choice": "Array (Dizi)", "isCorrect": true },
+        { "choice": "Number (Sayı)", "isCorrect": false },
+        { "choice": "Null", "isCorrect": false },
+        { "choice": "Function (Fonksiyon)", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 29,
+      "question": "JavaScript'te 'RESTful API' ne ifade eder?",
+      "options": [
+        { "choice": "Bir veritabanı türü", "isCorrect": false },
+        { "choice": "Bir web servisi mimarisi", "isCorrect": true },
+        { "choice": "Bir programlama dili", "isCorrect": false },
+        { "choice": "Bir döngü yapısı", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 30,
+      "question": "JavaScript'te 'let' ve 'const' arasındaki fark nedir?",
+      "options": [
+        { "choice": "'let' değiştirilebilirken, 'const' sabittir.", "isCorrect": true },
+        { "choice": "'let' sabittir, 'const' değiştirilebilir.", "isCorrect": false },
+        { "choice": "'let' blok kapsamında, 'const' ise fonksiyon kapsamındadır.", "isCorrect": false },
+        { "choice": "'const' global kapsamda, 'let' ise lokal kapsamdadır.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 31,
+      "question": "JavaScript'te 'Promise.all()' ne yapar?",
+      "options": [
+        { "choice": "Bir dizi içindeki her bir öğeyi işler.", "isCorrect": false },
+        { "choice": "Birden fazla 'promise' nesnesini izler ve hepsi çözülene kadar bekler.", "isCorrect": true },
+        { "choice": "Promise zincirini sonlandırır.", "isCorrect": false },
+        { "choice": "Bir 'promise' nesnesini iptal eder.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 32,
+      "question": "JavaScript'te 'NaN' neyi temsil eder?",
+      "options": [
+        { "choice": "Negatif bir değeri temsil eder.", "isCorrect": false },
+        { "choice": "Bir sayının 'undefined' durumunu temsil eder.", "isCorrect": false },
+        { "choice": "Matematiksel işlemlerde sayısal olarak tanımlanamayan durumu temsil eder.", "isCorrect": true },
+        { "choice": "Bir nesne türünü temsil eder.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 33,
+      "question": "JavaScript'te 'String.fromCharCode()' ne işe yarar?",
+      "options": [
+        { "choice": "Bir string'in uzunluğunu döndürür.", "isCorrect": false },
+        { "choice": "Unicode değerlerini temsil eden karakterleri döndürür.", "isCorrect": true },
+        { "choice": "Bir string'i tersine çevirir.", "isCorrect": false },
+        { "choice": "Bir string'i büyük harfe çevirir.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 34,
+      "question": "JavaScript'te 'map()' fonksiyonu ne yapar?",
+      "options": [
+        { "choice": "Dizideki her bir öğeyi işler ve yeni bir dizi döndürür.", "isCorrect": true },
+        { "choice": "Bir dizi içindeki öğeleri tersine çevirir.", "isCorrect": false },
+        { "choice": "Bir dizi içindeki öğeleri birleştirir.", "isCorrect": false },
+        { "choice": "Bir dizi içindeki belirli bir öğeyi arar.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 35,
+      "question": "JavaScript'te 'null' ile 'undefined' arasındaki fark nedir?",
+      "options": [
+        { "choice": "'null', bir değerin yokluğunu belirtirken, 'undefined' bir değişkenin atanmamış olduğunu belirtir.", "isCorrect": true },
+        { "choice": "'null', bir değişkenin atanmış olduğunu belirtirken, 'undefined' bir değerin yokluğunu belirtir.", "isCorrect": false },
+        { "choice": "'null' ve 'undefined' arasında fark yoktur, aynı anlama gelirler.", "isCorrect": false },
+        { "choice": "'undefined', sadece fonksiyonlarda kullanılırken, 'null' genel değişkenlerde kullanılır.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 36,
+      "question": "JavaScript'te 'parseInt()' fonksiyonu ne yapar?",
+      "options": [
+        { "choice": "Bir string'i ondalıklı sayıya çevirir.", "isCorrect": false },
+        { "choice": "Bir string'i tam sayıya çevirir.", "isCorrect": true },
+        { "choice": "Bir string'i sayısal bir ifadeye dönüştürür.", "isCorrect": false },
+        { "choice": "Bir string'i tersine çevirir.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 37,
+      "question": "JavaScript'te 'startsWith()' ne yapar?",
+      "options": [
+        { "choice": "Bir string'in belirli bir değerle başlayıp başlamadığını kontrol eder.", "isCorrect": true },
+        { "choice": "Bir string'i büyük harfe çevirir.", "isCorrect": false },
+        { "choice": "Bir string'in belirli bir değerle bitip bitmediğini kontrol eder.", "isCorrect": false },
+        { "choice": "Bir string'in uzunluğunu döndürür.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 38,
+      "question": "JavaScript'te 'splice()' ne yapar?",
+      "options": [
+        { "choice": "Bir diziye yeni öğe ekler veya mevcut öğeleri değiştirir veya kaldırır.", "isCorrect": true },
+        { "choice": "Bir dizi içindeki öğeleri sıralar.", "isCorrect": false },
+        { "choice": "Bir dizi içindeki öğeleri tersine çevirir.", "isCorrect": false },
+        { "choice": "Bir dizi içindeki belirli bir öğeyi arar.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 39,
+      "question": "JavaScript'te 'string interpolation' (dize içi işlem) ne işe yarar?",
+      "options": [
+        { "choice": "Birden fazla dizeyi birleştirir.", "isCorrect": false },
+        { "choice": "Dize içinde değişkenleri veya ifadeleri daha kolay bir şekilde yerleştirir.", "isCorrect": true },
+        { "choice": "Dizeleri birleştirir ve tersine çevirir.", "isCorrect": false },
+        { "choice": "Bir dizeyi büyük harfe çevirir.", "isCorrect": false }
+      ]
+    }
+  ]
+}

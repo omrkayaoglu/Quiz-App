@@ -1,0 +1,64 @@
+.card {
+  width: 500px;
+  min-height: 300px;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 15px;
+  opacity: 0.7;
+}
+
+.show-score{
+  width: 500px;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 15px;
+  background-color: white;
+  opacity: 0.7;
+}
+  
+.card-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.form-check {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form-check-input {
+  margin-right: 10px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-next .btn-previous{
+  padding: 8px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 40px;
+  margin-top: 4px;
+}    
+
+.btn-next .btn-previous:hover {
+  background-color: #0056b3;
+}

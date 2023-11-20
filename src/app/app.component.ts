@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'quiz-app';
+  
+  quizIsStarted: boolean = false;
+
+  startQuiz(){
+    this.quizIsStarted=true;
+  }
 }
